@@ -9,7 +9,15 @@ namespace sss.Controllers
     public class DefaultController : Controller
     {
         // GET: Default
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
+        {
+            return View();
+        }
+        public ActionResult Indexp()
         {
             return View();
         }
